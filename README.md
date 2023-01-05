@@ -6,3 +6,7 @@
 2.) Introduction to Java\
 3.) Keywords, Variables, Identifiers and DataTypes\
 4.) Operators
+
+## Day-2: Java Programming Basics
+1.) Type Conversion\
+2.) Control Structures
