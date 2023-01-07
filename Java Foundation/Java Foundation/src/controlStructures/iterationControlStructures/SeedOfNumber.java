@@ -6,6 +6,8 @@ public class SeedOfNumber {
 
 	public static void main(String[] args) {
 		
+//		E.g.: 123 is a seed of 738 as 123*1*2*3 = 738
+		
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Enter the seed Number: ");
 		int num1 = scanner.nextInt();

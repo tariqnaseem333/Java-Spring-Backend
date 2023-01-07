@@ -6,6 +6,8 @@ public class DivisibleBySumOfDigits {
 
 	public static void main(String[] args) {
 		
+//		2250 is divisible by sum of its digits which is 9
+		
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Enter the Number: ");
 		int num = scanner.nextInt();

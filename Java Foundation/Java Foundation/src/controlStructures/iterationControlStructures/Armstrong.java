@@ -6,6 +6,8 @@ public class Armstrong {
 	
 	public static void main(String[] args) {
 		
+//		1634 is an Armstrong number as 14 + 64 + 34+ 44=1634
+		
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Enter the number: ");
 		int num = scanner.nextInt();

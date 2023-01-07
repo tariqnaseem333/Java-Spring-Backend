@@ -6,6 +6,8 @@ public class DisplayNextDate {
 	
 	public static void main(String[] args) {
 		
+//		Generate and display the next date of a given date in the format day-month-year.
+		
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Enter the Day: ");
 		int day = scanner.nextInt();

@@ -6,6 +6,10 @@ public class GeometricSequenceAlternative {
 
 	public static void main(String[] args) {
 		
+//		Print the Geometric Sequence of the following series till the number N.
+//		1, 2, 4, 8, 16, 32, 64, ......, 1024
+//		Example: For N = 5, Series:  1, 2, 4, 8, 16
+		
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Enter the Number: ");
 		int num = scanner.nextInt();

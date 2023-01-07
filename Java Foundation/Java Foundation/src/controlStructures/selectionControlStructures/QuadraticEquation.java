@@ -6,6 +6,8 @@ public class QuadraticEquation {
 
 	public static void main(String[] args) {
 		
+//		Implement a program to solve a quadratic equation.
+		
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Enter the Coefficient of x^2: ");
 		int a = scanner.nextInt();

@@ -6,6 +6,9 @@ public class NoOfRabbitsAndChickenInFarm {
 
 	public static void main(String[] args) {
 		
+//		Find the number of rabbits and chickens in a farm.
+//		Given the number of heads and legs of the chickens and rabbits.
+		
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Enter the Total No. of Heads: ");
 		int heads = scanner.nextInt();

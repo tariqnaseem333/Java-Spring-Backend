@@ -6,6 +6,10 @@ public class PurchaseWith5DollarAnd1DollarNotes {
 	
 	public static void main(String[] args) {
 		
+//		You have fixed number of $5 notes and $1 notes.
+//		Find out minimum number of $5 notes and $1 notes will be used to purchase.
+//		If an exact change is not possible, then display -1.
+		
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Enter the 1$ Notes you have: ");
 		int $1Notes = scanner.nextInt();

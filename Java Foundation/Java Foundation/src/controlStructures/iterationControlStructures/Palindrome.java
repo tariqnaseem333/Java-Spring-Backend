@@ -6,6 +6,9 @@ public class Palindrome {
 
 	public static void main(String[] args) {
 		
+//		Palindrome is a sequence that reads the same backwards as forwards.
+//		Example: 1331 = 1331
+		
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Enter the number: ");
 		int num = scanner.nextInt();

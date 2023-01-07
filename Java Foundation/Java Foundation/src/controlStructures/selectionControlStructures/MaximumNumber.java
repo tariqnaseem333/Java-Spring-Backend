@@ -6,6 +6,8 @@ public class MaximumNumber {
 
 	public static void main(String[] args) {
 		
+//		Determine the maximum number out of 3 input numbers.
+		
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Enter the first Number: ");
 		int num1 = scanner.nextInt();

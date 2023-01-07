@@ -6,6 +6,9 @@ public class FoodDeliveryCost {
 
 	public static void main(String[] args) {
 		
+//		Given the type of food, quantity (no. of plates) and the distance in kms from the restaurant to the delivery point.
+//		Calculate the final bill amount to be paid by a customer.
+		
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Enter the Food Type: ");
 		char foodType = scanner.next().charAt(0);

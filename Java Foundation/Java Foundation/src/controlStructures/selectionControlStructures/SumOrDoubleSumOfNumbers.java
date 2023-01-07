@@ -6,6 +6,10 @@ public class SumOrDoubleSumOfNumbers {
 
 	public static void main(String[] args) {
 		
+//		Implement a program to display the sum of two given numbers if the numbers are same.
+//		If the numbers are not same, display the double of the sum.
+//		Example: For (6,5) --> 22 and (5,5) --> 10
+		
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Enter the First Number: ");
 		int num1 = scanner.nextInt();
