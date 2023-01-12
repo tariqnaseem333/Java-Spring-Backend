@@ -6,8 +6,6 @@ public class AreaOfCircle {
 
 	public static void main(String[] args) {
 		
-//		Calculate the area of Circle
-		
 		final double PI = 3.14;
 		
 		Scanner scanner = new Scanner(System.in);

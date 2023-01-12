@@ -6,8 +6,6 @@ public class FahrenheitToCelsius {
 
 	public static void main(String[] args) {
 		
-//		Convert fahrenheit temperature to celsius
-		
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Enter the Fahrenheit Temperature: ");
 		int fahrenheit = scanner.nextInt();
