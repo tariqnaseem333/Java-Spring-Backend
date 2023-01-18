@@ -1,0 +1,68 @@
+package controlStructures.selectionControlStructures;
+
+public class MetroBankLoan {
+
+	public static void main(String[] args) {
+		int accNum = 1001;
+		int salary = 40000;
+		int accBal = 250000;
+		String loanType = "Car";
+		int expLoanAmt = 300000;
+		int expEmi = 30;
+
+		int elgLoanAmt = 0;
+		int elgEmi = 0;
+
+//	    Validation for Account Number
+		String str  = String.valueOf(accNum);
+		System.out.println(str.length());
+		return;
+		if( str.length() != 3 || accNum/1000 != 1 ) {
+			System.out.println("The Account Number is Invalid. Enter a Valid Account Number");
+			return;
+		}
+
+//	    Validation for Account Balance 
+		if( accBal < 1000 ) {
+			System.out.println("The Account Balance is Insufficient. Please have atleast 1000$ in Account");
+			return;
+		}
+
+		if( loanType.equals("Car") ) {
+			if( salary > 25000 ) {
+				elgLoanAmt = 500000;
+				elgEmi = 36;
+			}
+		}
+		else if( loanType.equals("House") ) {
+			if( salary > 50000 ) {
+				elgLoanAmt = 6000000;
+				elgEmi = 60;
+			}
+		}
+		else if( loanType.equals("Business") ) {
+			if( salary > 75000 ) {
+				elgLoanAmt = 7500000;
+				elgEmi = 84;
+			}
+		}
+		else {
+			System.out.println("The loan type is Invalid. Enter a valid loan type.");
+		}
+
+//	    Bank will provide loan or Not
+		if( expLoanAmt <= elgLoanAmt && expEmi <= elgEmi ) {
+			System.out.println("Account Number: " + accNum);
+			System.out.println("Expected Loan Amount: " + expLoanAmt);
+			System.out.println("Eligible Loan Amount: " + elgLoanAmt);
+			System.out.println("Expected EMI: " + expEmi);
+			System.out.println("Eligible EMI: " + elgEmi);
+		} else {
+			System.out.println("The loan Amount and EMI you requested cannot be provided by the bank. Thanks for your Interest");
+		}
+
+	}
+
+
+
+}
