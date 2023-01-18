@@ -18,3 +18,6 @@
 ## Day-4: Java Programming Basics
 1.) Solve 4 Problems on Selection Control Structures\
 2.) Solve 5 Problems on Iteration Control Structures
+
+## Day-5: Java Programming Basics
+1.) Solve 1 Problem on Iteration Control Structures
