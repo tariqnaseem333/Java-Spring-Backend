@@ -21,3 +21,8 @@
 
 ## Day-5: Java Programming Basics
 1.) Solve 1 Problem on Iteration Control Structures
+
+## Day-6: Object Oriented Programming Basics
+1.) Introduction to Object Oriented Programming\
+2.) Methods\
+3.) Constructor
