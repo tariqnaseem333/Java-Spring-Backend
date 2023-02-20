@@ -6,7 +6,7 @@ public class LuckyNumber {
 	
 	public static void main(String[] args) {
 		
-//		1623 = 62+32 = 45 is a multiple of 9 and hence is a lucky number.
+//		1623 = 6^2 + 3^2 = 45 is a multiple of 9 and hence is a lucky number.
 		
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Enter the number: ");

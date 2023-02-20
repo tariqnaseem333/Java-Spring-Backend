@@ -33,8 +33,8 @@ public class PurchaseWith5DollarAnd1DollarNotes {
 		}
 		
 		if( (5*x+y) == purchaseAmount ) {
-		    System.out.println("$1 Notes needed: " + $1Notes);
-		    System.out.println("$5 Notes needed: " + $5Notes);
+		    System.out.println("$1 Notes needed: " + y);
+		    System.out.println("$5 Notes needed: " + x);
 		} else {
 		    System.out.println("-1");
 		}
