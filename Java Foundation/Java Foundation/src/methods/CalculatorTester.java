@@ -6,7 +6,7 @@ public class CalculatorTester {
 		Calculator calculator = new Calculator();
 		
 //		Invoke the method findAverage of the Calculator class and display the average
-		double res = calculator.findAverage(12, 8, 5);
+		double res = calculator.findAverage(12, 8, 15);
 		System.out.println(res);
 	}
 
