@@ -1,5 +1,4 @@
 package com.tariq;
-
 public class Customer {
 	
 //		Instance Variables
@@ -7,6 +6,16 @@ public class Customer {
 		public String customerName;
 		public long contactNumber;
 		public String address;
+		
+//		Constructor
+		public Customer() {
+		}
+		
+		public Customer( String customerName, long contactNumber, String address ) {
+			this.customerName = customerName;
+			this.contactNumber = contactNumber;
+			this.address = address;
+		}
 		
 //		Methods
 		public void displayCustomerDetails() {
@@ -17,5 +26,4 @@ public class Customer {
 			System.out.println("Address : " + address);
 			System.out.println();
 		}
-
 }
