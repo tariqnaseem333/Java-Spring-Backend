@@ -30,7 +30,12 @@
 2.) Access Modifiers\
 3.) Class Diagram
 
-## Day-7: Object Oriented Programming Basics
+## Day-7: Java Programming Basics
 1.) Arrays\
 2.) Strings
+
+## Day-8: Java Programming Basics
+1.) Testing\
+2.) Debugging\
+3.) Code Analysis
 
