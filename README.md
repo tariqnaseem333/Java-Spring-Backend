@@ -39,3 +39,7 @@
 2.) Debugging\
 3.) Code Analysis
 
+## Day-9: Java Programming Basics
+1.) Solve 1 Problem on Static Keyword\
+2.) Solve 7 Problems on Arrays
+
