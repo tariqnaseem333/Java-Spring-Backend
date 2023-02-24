@@ -43,3 +43,6 @@
 1.) Solve 1 Problem on Static Keyword\
 2.) Solve 7 Problems on Arrays
 
+## Day-10: Java Programming Basics
+1.) Solve 5 Problems on Strings
+
