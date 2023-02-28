@@ -3,10 +3,11 @@ package staticKeyword;
 public class Bill {
 	
 //	Instance Variables
-	static private int counter;
 	private String billId;
 	private String paymentMode;
 	
+//	Static Variable
+	static private int counter;
 	static {
 		counter = 0;
 	}
