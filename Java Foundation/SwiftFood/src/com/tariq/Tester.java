@@ -48,16 +48,17 @@ public class Tester {
 //		Restaurant restaurant = new Restaurant( "McDonald's", 9462718346L, "Springfield", 4.1F );
 //		restaurant.displayRestaurantDetails();
 		
-//		Food object creation
-		Food food = new Food();
-//		Assigning values to the instance variables
-		food.setFoodName("Pizza");
-		food.setCuisine("Italian");
-		food.setQuantityAvailable(2);
-		food.setFoodType("Fast Food");
-		food.setUnitPrice(10);
-//		Calling the method on food
-		food.displayCustomerDetails();
+////		Food object creation
+//		Food food = new Food();
+////		Assigning values to the instance variables
+//		food.setFoodName("Pizza");
+//		food.setCuisine("Italian");
+//		food.setQuantityAvailable(2);
+//		food.setFoodType("Fast Food");
+//		food.setUnitPrice(10);
+////		Calling the method on food
+//		food.displayFoodDetails();
+		
 		
 	}
 }

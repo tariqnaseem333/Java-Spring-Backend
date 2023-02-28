@@ -41,7 +41,7 @@ public class Food {
 	}
 	
 	//	Methods
-	public void displayCustomerDetails() {
+	public void displayFoodDetails() {
 		System.out.println("Displaying food details \n***********");
 		System.out.println("Food Name : " + foodName);
 		System.out.println("Cuisine : " + cuisine);
