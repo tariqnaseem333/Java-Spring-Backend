@@ -43,6 +43,28 @@
 1.) Solve 1 Problem on Static Keyword\
 2.) Solve 7 Problems on Arrays
 
-## Day-10: Java Programming Basics
-1.) Solve 5 Problems on Strings
+## Day-10: Object Oriented Programming Concepts
+1.) Static\
+2.) Aggregation\
+3.) Association
+
+## Day-11: Object Oriented Programming Concepts
+1.) Solve 3 Problem on Static\
+2.) Solve 3 Problems on Aggregation\
+3.) Solve 1 Problem on Association
+
+## Day-12: Object Oriented Programming Concepts
+1.) Inheritance\
+2.) Static Polymorphism or Method Overloading\
+3.) Dynamic Polymorphism or Method Overriding
+
+## Day-13: Object Oriented Programming Concepts
+1.) Solve 2 Problems on Inheritance\
+2.) Solve 3 Problems on Static Polymorphism or Method Overloading\
+3.) Solve 1 Problem on Dynamic Polymorphism or Method Overriding
+
+## Day-14: Object Oriented Programming Concepts
+1.) Object and Wrapper Classes\
+2.) Final Keyword\
+3.) Abstract
 
