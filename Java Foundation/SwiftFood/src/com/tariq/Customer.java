@@ -35,8 +35,17 @@ public class Customer {
 		}
 		
 		public double payBill( double totalPrice ) {
-			
+			System.out.println("Calculating Total Bill");
 			return 0.0;
+		}
+		
+		public void updateDetails(long mobile) {
+			System.out.println("Updating customer contact number...");
+			this.setContactNumber(mobile);
+		}
+		public void updateDetails(Address address) {
+			System.out.println("Updating customer address...");
+			this.setAddress(address);
 		}
 		
 //		Getters and Setters
