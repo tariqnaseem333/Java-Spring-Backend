@@ -97,5 +97,12 @@
 ### Day-20: Java Project
 1.) Build Private Sector Firm Office Operations Project
 
+
 ## Java 11 Standard Edition (SE) Basics:-
+
+### Day-1: Java Basics
+1.) Introduction\
+2.) Enterprise Application\
+3.) Java Basics - Introduction to Java\
+4.) Java Basics - Keywords and DataTypes
 
