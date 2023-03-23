@@ -105,4 +105,11 @@
 2.) Enterprise Application\
 3.) Java Basics - Introduction to Java\
 4.) Java Basics - Keywords and DataTypes
+5.) Solve 1 Problem on Java Basics - Keywords and DataTypes
+
+### Day-2: Java Basics
+1.) OOP Constructs\
+2.) Control Structures\
+3.) Package & Access Modifiers\
+4.) Solve 1 Problem on OOP Constructs, 1 Problem on Control Structures and 1 Problem on Package & Access Modifiers
 
