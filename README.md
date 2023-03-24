@@ -119,4 +119,9 @@
 3.) Arrays\
 4.) Solve 1 Problem on Strings Class, 2 Problems on Wrapper Classes and 1 Problem on Arrrays
 
+### Day-24: Java Basics
+1.) Enumeration in Java\
+2.) Solve 2 Problems on Enumeration\
+3.) Solve 2 Assignment Problems based on all the topics learned till now
+
 
