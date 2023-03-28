@@ -124,4 +124,12 @@
 2.) Solve 2 Problems on Enumeration\
 3.) Solve 2 Assignment Problems based on all the topics learned till now
 
+### Day-25: Java API
+1.) Java Regex API\
+2.) Java DateTime API
+
+### Day-26: Java API
+1.) Solve 1 Problem on Java Regex API\
+2.) Solve 3 Problems on Java DateTime API
+
 
