@@ -132,4 +132,16 @@
 1.) Solve 1 Problem on Java Regex API\
 2.) Solve 3 Problems on Java DateTime API
 
+### Day-27: Java Object Oriented Programming Concepts
+1.) Static\
+2.) Method and Constructor Overloading\
+3.) Inheritance\
+4.) Solve 1 Problem on Static, 2 Problems on Method & Constructor Overloading and 2 Problems on Inheritance
+
+### Day-28: Java Object Oriented Programming Concepts
+1.) Method Overriding\
+2.) Object Class\
+3.) Final Keyword\
+4.) Solve 1 Problem on Method Overriding, 1 Problem on Object Class and 1 Problem on Final Keyword
+
 
