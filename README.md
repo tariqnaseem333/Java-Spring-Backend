@@ -144,4 +144,10 @@
 3.) Final Keyword\
 4.) Solve 1 Problem on Method Overriding, 1 Problem on Object Class and 1 Problem on Final Keyword
 
+### Day-29: Java Object Oriented Programming Concepts
+1.) Abstract\
+2.) Interface\
+3.) Functional Interface\
+4.) Solve 1 Problem on Abstract and 1 Problem on Interface
+
 
