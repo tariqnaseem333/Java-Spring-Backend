@@ -19,7 +19,6 @@ public class Customer{
 		} else {
 			this.setApplicableDiscount(0);
 		}
-		this.setApplicableDiscount(applicableDiscount);
 	}
 	
 //	Getters and Setters
