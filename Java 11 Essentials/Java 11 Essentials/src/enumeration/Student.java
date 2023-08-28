@@ -38,8 +38,7 @@ public class Student{
 		break;
 		case D : this.setScolarshipAmount(2000);
 		break;
-		case E : this.setScolarshipAmount(0);
-		break;
+		default : this.setScolarshipAmount(0);
 		}
 	}
 	

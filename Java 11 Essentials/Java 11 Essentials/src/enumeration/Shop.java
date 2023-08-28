@@ -28,29 +28,21 @@ public class Shop {
 
 		if( type.equals(type.MOBILE) && this.amount >= 30000 ) {
 			this.discount = 15;
-			this.amount = this.amount * ( 1 - this.discount / 100.0 );
-			System.out.println("Your total Amount after Discount is: " + this.amount);
 		}
 		else if( type.equals(type.TABLET) && this.amount >= 35000 ) {
 			this.discount = 10;
-			this.amount = this.amount * ( 1 - this.discount / 100.0 );
-			System.out.println("Your total Amount after Discount is: " + this.amount);
 		}
 		else if( type.equals(type.LAPTOP) && this.amount >= 35000 ) {
 			this.discount = 8;
-			this.amount = this.amount * ( 1 - this.discount / 100.0 );
-			System.out.println("Your total Amount after Discount is: " + this.amount);
 		}
 		else if( type.equals(type.COMPUTER) && this.amount >= 35000 ) {
 			this.discount = 10;
-			this.amount = this.amount * ( 1 - this.discount / 100.0 );
-			System.out.println("Your total Amount after Discount is: " + this.amount);
 		}
 		else {
 			this.discount = 7;
-			this.amount = this.amount * ( 1 - this.discount / 100.0 );
-			System.out.println("Your total Amount after Discount is: " + this.amount);
 		}
+		this.amount = this.amount * ( 1 - this.discount / 100.0 );
+		System.out.println("Your total Amount after Discount is: " + this.amount);
 	}
 
 	//	Getters and Setters
