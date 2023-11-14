@@ -9,20 +9,27 @@ public class Student{
 		
 //	Methods
 	public String generateExamId() {
-		int studentId = Integer.parseInt(this.getStudentId());
-		String examId = "";
-		String[] strArr = this.name.split(" ");
-		int i = 1;
-		for( String str : strArr ) {
-			if( i == 1 ) {
-				examId = examId + str.substring(0, 3) + "-";
-			} else {
-				examId = examId + str.substring(0, 3) + ":";
-			}
-			i++;
-		}
-		examId = examId + this.studentId + "-" + (int)Math.pow(studentId%10, 2);
+		
+		int lastDigit = Integer.parseInt(this.getStudentId()) % 10;
+		String[] studentName = this.getName().split(" ");
+		String examId = studentName[0].substring(0, 3) + "-" + studentName[1].substring(0, 3) + ":" + 
+						this.getStudentId() + "-" + (int)Math.pow(lastDigit, 2);
 		return examId;
+		
+//		int studentId = Integer.parseInt(this.getStudentId());
+//		String examId = "";
+//		String[] strArr = this.name.split(" ");
+//		int i = 1;
+//		for( String str : strArr ) {
+//			if( i == 1 ) {
+//				examId = examId + str.substring(0, 3) + "-";
+//			} else {
+//				examId = examId + str.substring(0, 3) + ":";
+//			}
+//			i++;
+//		}
+//		examId = examId + this.studentId + "-" + (int)Math.pow(studentId%10, 2);
+//		return examId;
 	}
 	
 //	Getters and Setters
