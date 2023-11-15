@@ -122,7 +122,8 @@
 ### Day-24: Java Basics
 1.) Enumeration in Java\
 2.) Solve 2 Problems on Enumeration\
-3.) Solve 2 Assignment Problems based on all the topics learned till now
+3.) Solve 2 Assignment Problems based on all the topics learned till now\
+4.) Build 1 Maven Project based on Java - [ Project 1 : Infy Academy](https://github.com/tariqnaseem333/Infy-Academy.git)
 
 ### Day-25: Java API
 1.) Java Regex API\
