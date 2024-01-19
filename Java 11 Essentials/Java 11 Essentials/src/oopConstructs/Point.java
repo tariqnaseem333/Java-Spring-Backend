@@ -14,17 +14,16 @@ public class Point {
 		this.y = y;
 	}
 	
-//	Methods
+//	Method to obtain distance of a point w.r.t origin
 	public double distance() {
-		double expression = Math.pow(x, 2) + Math.pow(y, 2);
-		double distance = Math.sqrt(expression);
-		return Math.round(distance*100) / 100.0;
+		double distance = Math.sqrt( Math.pow(this.x, 2) + Math.pow(this.y, 2) );
+	    return Math.round(distance*100) / 100.0;
 	}
 	
-	public double distance( Point p ) {
-		double expression = Math.pow(this.x - p.getX(), 2) + Math.pow(this.y - p.getY(), 2);
-		double distance = Math.sqrt(expression);
-		return Math.round(distance*100) / 100.0;
+//	Method to obtain distance of a point w.r.t another point
+	public double distance( Point point ) {
+	    double distance = Math.sqrt( Math.pow(this.x-point.x, 2) + Math.pow(this.y-point.y, 2) );
+	    return Math.round(distance*100) / 100.0;
 	}
 	
 //	Getters and Setters
