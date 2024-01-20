@@ -3,13 +3,13 @@ package packageAndAccessModifiers.package1;
 public class Student {
 
 //	Instance Variables
-	int studentId;
+	Integer studentId;
 	public String studentName;
 	private float totalMarksObtained;
 	public float totalMarks;
 	
 //	Constructor
-	public Student( int studentId, String studentName, float totalMarksObtained, float totalMarks ) {
+	public Student( Integer studentId, String studentName, float totalMarksObtained, float totalMarks ) {
 		this.studentId = studentId;
 		this.studentName = studentName;
 		this.totalMarksObtained = totalMarksObtained;
@@ -17,29 +17,17 @@ public class Student {
 	}
 
 //	Getters and Setters
-	public int getStudentId() {
+	public Integer getStudentId() {
 		return studentId;
 	}
-	public void setStudentId(int studentId) {
+	public void setStudentId(Integer studentId) {
 		this.studentId = studentId;
-	}
-	public String getStudentName() {
-		return studentName;
-	}
-	public void setStudentName(String studentName) {
-		this.studentName = studentName;
 	}
 	public float getTotalMarksObtained() {
 		return totalMarksObtained;
 	}
 	public void setTotalMarksObtained(float totalMarksObtained) {
 		this.totalMarksObtained = totalMarksObtained;
-	}
-	public float getTotalMarks() {
-		return totalMarks;
-	}
-	public void setTotalMarks(float totalMarks) {
-		this.totalMarks = totalMarks;
 	}
 	
 }
