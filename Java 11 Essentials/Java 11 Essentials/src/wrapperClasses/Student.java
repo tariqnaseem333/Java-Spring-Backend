@@ -12,9 +12,8 @@ public class Student{
 		
 		int lastDigit = Integer.parseInt(this.getStudentId()) % 10;
 		String[] studentName = this.getName().split(" ");
-		String examId = studentName[0].substring(0, 3) + "-" + studentName[1].substring(0, 3) + ":" + 
+		return studentName[0].substring(0, 3) + "-" + studentName[1].substring(0, 3) + ":" + 
 						this.getStudentId() + "-" + (int)Math.pow(lastDigit, 2);
-		return examId;
 		
 //		int studentId = Integer.parseInt(this.getStudentId());
 //		String examId = "";
