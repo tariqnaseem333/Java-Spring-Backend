@@ -16,7 +16,7 @@ public class Customer{
 		} else if( customer[0].equals("Privileged") ) {
 			this.setApplicableDiscount(20);
 		} else {
-			System.out.println("Invalid Customer Name!!");
+			System.out.println("Invalid Customer Type!!");
 		}
 		
 //		String str = inputString.trim();
