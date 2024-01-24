@@ -2,43 +2,44 @@ package enumeration;
 
 public class Student{
 	
-//	Instance Variables
+//	Instance variables
 	private Integer studentId;
 	private String name;
 	private Integer totalMarks;
-	private Grade grade;  //Grade is the name of enum
+	private Grade grade;         //Grade is the name of enum
 	private float scholarshipAmount;
 	
 //	Methods
 	public void calculateGrade() {
-		if( this.totalMarks >= 250 ) {
-			this.grade = grade.A;
+		
+		if( this.getTotalMarks() >= 250 ) {
+			this.setGrade(Grade.A);
+		}  
+		else if( this.getTotalMarks() >= 200 && this.getTotalMarks() < 250 ) {
+			this.setGrade(Grade.B);
 		}
-		else if( this.totalMarks >= 200 && this.totalMarks < 250 ) {
-			this.grade = grade.B;
+		else if( this.getTotalMarks() >= 175 && this.getTotalMarks() < 200 ) {
+			this.setGrade(Grade.C);
 		}
-		else if( this.totalMarks >= 175 && this.totalMarks < 200 ) {
-			this.grade = grade.C;
-		}
-		else if( this.totalMarks >= 150 && this.totalMarks < 175 ) {
-			this.grade = grade.D;
+		else if( this.getTotalMarks() >= 150 && this.getTotalMarks() < 175 ) {
+			this.setGrade(Grade.D);
 		}
 		else {
-			this.grade = grade.E;
+			this.setGrade(Grade.E);
 		}
 	}
 	
 	public void calculateScolarshipAmount() {
-		switch( this.grade ) {
-		case A : this.setScolarshipAmount(5000);
-		break;
-		case B : this.setScolarshipAmount(4000);
-		break;
-		case C : this.setScolarshipAmount(3000);
-		break;
-		case D : this.setScolarshipAmount(2000);
-		break;
-		default : this.setScolarshipAmount(0);
+		switch( this.getGrade() ) {
+			case A : this.setScolarshipAmount(5000);
+					 break;
+			case B : this.setScolarshipAmount(4000);
+			 		 break;
+			case C : this.setScolarshipAmount(3000);
+			 		 break;
+			case D : this.setScolarshipAmount(2000);
+					 break;
+			default : this.setScolarshipAmount(0);
 		}
 	}
 	
@@ -73,4 +74,5 @@ public class Student{
 	public void setScolarshipAmount(float scolarshipAmount) {
 		this.scholarshipAmount = scolarshipAmount;
 	}
+	
 }

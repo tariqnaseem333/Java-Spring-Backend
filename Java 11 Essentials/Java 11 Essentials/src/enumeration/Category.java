@@ -1,5 +1,7 @@
 package enumeration;
 
 public enum Category {
-	MOBILE,TABLET,COMPUTER,LAPTOP
+	
+	MOBILE,TABLET,DESKTOP,LAPTOP;
+
 }
