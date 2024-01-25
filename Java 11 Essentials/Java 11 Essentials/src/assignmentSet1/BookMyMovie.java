@@ -16,50 +16,43 @@ public class BookMyMovie {
 	
 //	Methods
 	public void calculateDiscount() {
-		if( this.movieId == 101  || this.movieId == 102 || this.movieId == 103 ) {
-			if( this.noOfTickets < 5 ) {
-				this.setDiscount(0);
-			}
+		
+		if( (this.getMovieId() == 101 || this.getMovieId() == 102 || this.getMovieId() == 103)
+				&& (this.getNoOfTickets() < 5) ) {
+			this.setDiscount(0);
 		}
-		else if( this.movieId == 101  || this.movieId == 103 ) {
-			if( this.noOfTickets >= 5 && this.noOfTickets < 10 ) {
+		else if(this.getMovieId() == 101 || this.getMovieId() == 103) {
+			if(this.getNoOfTickets() >= 5 && this.getNoOfTickets() < 10) {
 				this.setDiscount(15);
 			}
-			else if( this.noOfTickets >= 10 && this.noOfTickets <= 15 ) {
+			else if(this.getNoOfTickets() >= 10 && this.getNoOfTickets() <= 15) {
 				this.setDiscount(20);
 			}
 		}
-		else if( this.movieId == 102 ) {
-			if( this.noOfTickets >= 5 && this.noOfTickets < 10 ) {
+		else if(this.getMovieId() == 102) {
+			if( this.getNoOfTickets() >= 5 && this.getNoOfTickets() < 10 ) {
 				this.setDiscount(10);
 			}
-			else if( this.noOfTickets >= 10 && this.noOfTickets <= 15 ) {
+			else if( this.getNoOfTickets() >= 10 && this.getNoOfTickets() <= 15 ) {
 				this.setDiscount(15);
 			}
-		}
-		
-	}
-	
-	public double calculateTicketAmount() {
-		this.calculateDiscount();
-		
-		double baseFare = 0;
-		if( this.movieId == 101 ) {
-			baseFare = 120;
-		} 
-		else if( this.movieId == 102 ) {
-			baseFare = 170;
-		} 
-		else if( this.movieId == 103 ) {
-			baseFare = 150;
 		}
 		else {
 			System.out.println("Sorry! Invalid Movie ID!");
 			System.out.println("Please check the Movie ID and enter once again.");
 		}
-		double totalAmount = baseFare * this.noOfTickets * ( 1 - (discount/100.0));
-		this.setTotalAmount(totalAmount);
-		return totalAmount;
+		
+	}
+	public double calculateTicketAmount() {
+		this.calculateDiscount();
+		double baseFare = switch( this.getMovieId() ) {
+			case 101 -> 120;
+			case 102 -> 170;
+			case 103 -> 150;
+			default -> 0;
+		};
+		double totalAmount = baseFare*this.getNoOfTickets() * (1 - (this.getDiscount() / 100.0));
+		return Math.round(totalAmount*100) / 100.0;
 	}
 	
 //	Getters and Setters

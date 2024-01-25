@@ -11,8 +11,7 @@ public class BookMyMovieTester {
 		BookMyMovie[] bookings = { booking1, booking2, booking3 };
 		
 		for( BookMyMovie booking : bookings ) {
-			booking.calculateTicketAmount();
-			System.out.println("The Total Amount for your booking is: " + booking.getTotalAmount());
+			System.out.println("Total amount for booking: " + booking.calculateTicketAmount());
 		}
 		
 		
