@@ -5,31 +5,32 @@ import java.util.Scanner;
 public class QuadraticEquation {
 	
 	public static void main(String[] args) {
-		
-		Scanner s = new Scanner(System.in);
-		
+
+//		Taking Input of Coefficients of Quadratic Equation from the user
+		Scanner scanner = new Scanner(System.in);
 		System.out.println("Enter the coefficient of x^2");
-		int a = s.nextInt();
+		int a = scanner.nextInt();
 		System.out.println("Enter the coefficient of x^1");
-		int b = s.nextInt();
+		int b = scanner.nextInt();
 		System.out.println("Enter the coefficient of x^0");
-		int c = s.nextInt();
+		int c = scanner.nextInt();
+		scanner.close();
+
+		double discriminant = Math.pow(b, 2) - 4*a*c;
 		
-		double discremenent = b*b - 4*a*c;
-		if( discremenent > 0 ) {
-			double r1 = ( -b + Math.sqrt(discremenent) ) / (2*a);
-			double r2 = ( -b - Math.sqrt(discremenent) ) / (2*a);
-			System.out.println("The roots are: " + r1 + " " + r2);
+		if( discriminant > 0 ) {
+			double root1 = ( -b + Math.sqrt(discriminant) ) / (2*a);
+			double root2 = ( -b - Math.sqrt(discriminant) ) / (2*a);
+			System.out.println("The roots are: " + root1 + " " + root2);
 		}
-		else if( discremenent < 0 ) {
+		else if( discriminant < 0 ) {
 			System.out.println("The equation does not have real roots.");
 		}
 		else {
-			double r = ( -b + Math.sqrt(discremenent) ) / 2*a;
-			System.out.println("The roots is: " + r);
+			double root = ( -b + Math.sqrt(discriminant) ) / 2*a;
+			System.out.println("The roots is: " + root);
 		}
-		
-		
+
 	}
 	
 	
