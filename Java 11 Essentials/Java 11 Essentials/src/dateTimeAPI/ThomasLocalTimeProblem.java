@@ -1,7 +1,10 @@
 package dateTimeAPI;
 
+import java.time.Duration;
 import java.time.LocalTime;
+import java.time.format.DateTimeFormatter;
 import java.time.temporal.ChronoUnit;
+import java.util.Scanner;
 
 public class ThomasLocalTimeProblem {
 
@@ -16,18 +19,25 @@ Exercise :-
 
 		 */
 		
-		LocalTime trainTiming = LocalTime.of(8, 0);
-		LocalTime thomasLeaveHouseTime = trainTiming.minusHours(2).minusMinutes(45);
-		System.out.println("He should leave the house on or before: " + thomasLeaveHouseTime);
+//		Taking Input of Thomas House Leaving Time
+		Scanner scanner = new Scanner( System.in );
+		System.out.println("Enter the time at which thomas left for station in the format- (e.g., 01:30 PM)");
+		String time = scanner.nextLine();
+		scanner.close();
 		
-		if( ChronoUnit.HOURS.between(thomasLeaveHouseTime, trainTiming) >= 2 && 
-			ChronoUnit.MINUTES.between(thomasLeaveHouseTime, trainTiming) >= 45) {
-			System.out.println("He should be able to board the train");
-		} else {
-			System.out.println("He should not be able to board the train");
+//		Parsing input string as a LocalTime Object
+		DateTimeFormatter dtf = DateTimeFormatter.ofPattern("hh:mm a");
+		LocalTime thomasLeftHouseTime = LocalTime.parse(time, dtf);
+		
+		LocalTime trainTiming = LocalTime.of(20, 0);
+		if( (thomasLeftHouseTime.plusHours(2).plusMinutes(45)).isBefore(trainTiming) ) {
+			System.out.println("Yes, Thomas will be able to board the Train");
 		}
-		
-		
+		else {
+			Duration duration = Duration.between(trainTiming, (thomasLeftHouseTime.plusHours(2).plusMinutes(45)));
+			System.out.println("No, Train already left. Thomas should have left house: " + 
+					duration.toHours() + " hours and " + (duration.toMinutes()+1) + " minutes earlier");
+		}
 
 	}
 

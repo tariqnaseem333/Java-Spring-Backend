@@ -1,21 +1,32 @@
 package dateTimeAPI;
 
 import java.time.LocalDate;
+import java.time.Period;
+import java.time.format.DateTimeFormatter;
+import java.util.Scanner;
 
 public class AgeCalculatorFromGivenDate {
 
 	public static void main(String[] args) {
 		
-//		An age calculator that determines the age from current date, up to the day precision.
+//		Input: 02-11-1991
+//      Output: You are 32 years, 2 months and 18 days old.Depending on Today's Date.
+		
+//		Taking Input of User's Date of Birth
+		Scanner scanner = new Scanner( System.in );
+		System.out.println("Enter your date of birth in the format- (e.g., 02-11-1991)");
+		String dateOfBirth = scanner.nextLine();
+		scanner.close();
+		
+//		Parsing input string as a LocalDate Object
+		DateTimeFormatter dtf = DateTimeFormatter.ofPattern("dd-MM-yyyy");
+		LocalDate birthDate = LocalDate.parse(dateOfBirth, dtf);
 		
 		LocalDate today = LocalDate.now();
-		LocalDate dateOfBirth = LocalDate.of(1991, 11, 2);
+		Period period = Period.between(birthDate, today);
 		
-		System.out.println("You are " + today.minusYears(dateOfBirth.getYear()).getYear()
-				+ " years, " + today.minusMonths(dateOfBirth.getMonthValue()).getMonthValue()
-				+ " months and " + today.minusDays(dateOfBirth.getDayOfMonth()).getDayOfMonth()
-				+ " days old");
-
+		System.out.println("You are " + period.getYears() + " years, " + period.getMonths() + " months and " + period.getDays() + " days old.");
+		
 	}
-
+	
 }
