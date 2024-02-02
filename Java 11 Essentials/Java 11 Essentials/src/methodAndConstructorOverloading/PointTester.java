@@ -4,38 +4,18 @@ public class PointTester {
 	
 	public static void main(String[] args) {
 		
-////	For Testing Point Class Code 
-////		Creating Point 1
-//		Point p1 = new Point();
-//		p1.setX(2);
-//		p1.setY(3);
-//		
-////		Calculating Point 1 distance from origin
-//		System.out.println("The distance of Point P1 from Origin: " + p1.distance());
-//		
-////		Creating Point 1
-//		Point p2 = new Point();
-//		p2.setX(5);
-//		p2.setY(6);
-//		
-////		Calculating Point 1 distance from Point 2
-//		System.out.println("The distance of Point P1 from Point2: " + p1.distance(p2));
+//		Creating Point p1 and calculating it's distance from origin
+		Point p1 = new Point();
+		p1.setX(2);
+		p1.setY(3);
+		System.out.println("The distance of the Point p1 from origin is: " + p1.distance());
 		
-		
-		
-		
-//	For Testing PointFromOrigin Class Code 		
-//	Creating Point 1 of Origin having (0,0) Coordinates
-	PointFromOrigin p0 = new PointFromOrigin();
-//	Creating Point 2
-	PointFromOrigin p1 = new PointFromOrigin( 2, 3 );
-	
-//	Calculating Point 1 distance from origin
-	System.out.println("The distance of Point P1 from Origin: " + p1.distance(p0));
+//		Creating Point p2 and calculating it's distance from Point p1
+		Point p2 = new Point();
+		p2.setX(5);
+		p2.setY(6);
+		System.out.println("The distance of the Point p2 from Point p1 is: " + p2.distance(p1));
     		
-	
-	
-
 	}
 
 }
