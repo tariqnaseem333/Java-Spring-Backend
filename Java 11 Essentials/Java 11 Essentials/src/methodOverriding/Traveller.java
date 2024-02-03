@@ -17,15 +17,16 @@ public class Traveller{
 	public void calculateFare() {
 //		Base Fare = 2000 and Service tax = 11.36% of Base Fare
 		double totalFare = 2000 * ( 1 + 11.36 /100.0 );
-		this.setFare(totalFare);
+		this.setFare(Math.round(totalFare*100) / 100.0);
 	}
 	public void displayDetails() {
 		System.out.println("Traveller Details");
 		System.out.println("*****************");
-		System.out.println("Traveller Name: " + this.getName());
-		System.out.println("Traveller Id: " + this.getId());
+		System.out.println("Traveller Name:   " + this.getName());
+		System.out.println("Traveller Id:     " + this.getId());
 		this.calculateFare();
-		System.out.println("Cost of Travel: " + this.getFare());
+		System.out.println("Cost of Travel:   " + this.getFare());
+		System.out.println();
 		
 	}
 	

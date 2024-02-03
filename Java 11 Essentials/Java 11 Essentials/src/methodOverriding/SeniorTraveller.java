@@ -2,7 +2,7 @@ package methodOverriding;
 
 public class SeniorTraveller extends Traveller{
 	
-//	Instance Variables
+//	Instance Variable
 	private int age;
 	
 //	Constructor
@@ -28,16 +28,17 @@ public class SeniorTraveller extends Traveller{
 			return;
 		}
 		double totalFare = discountedFare * ( 1 + ( 11.36 /100.0 ) );
-		this.setFare( totalFare );
+		this.setFare( Math.round(totalFare*100) / 100.0 );
 	}
 	@Override
 	public void displayDetails() {
 		System.out.println("Senior Traveller Details");
-		System.out.println("*****************");
-		System.out.println("Traveller Name: " + this.getName());
-		System.out.println("Traveller Id: " + this.getId());
+		System.out.println("************************");
+		System.out.println("Traveller Name:   " + this.getName());
+		System.out.println("Traveller Id:     " + this.getId());
 		this.calculateFare();
-		System.out.println("Cost of Travel: " + this.getFare());
+		System.out.println("Cost of Travel:   " + this.getFare());
+		System.out.println();
 	}
 
 //	Getters and Setters
