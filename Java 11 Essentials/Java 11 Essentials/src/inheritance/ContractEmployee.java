@@ -15,8 +15,8 @@ public class ContractEmployee extends Employee{
 	
 //	Methods
 	public void calculateSalary() {
-		double salary = this.hours * this.wage;
-		this.setSalary(salary);
+		double calculatedSalary = this.hours * this.wage;
+		this.setSalary(Math.round(calculatedSalary*100) / 100.0);
 	}
 	
 //	Getters and Setters

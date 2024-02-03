@@ -17,22 +17,27 @@ public class PermanentEmployee extends Employee{
 	
 //	Methods
 	public void calculateSalary() {
+		
 		double variableComponent = 0;
-		if( this.experience < 3 ) {
+		
+		if( this.getExperience() < 3 ) {
 			variableComponent = 0;
-		}
-		else if( this.experience >= 3 && this.experience < 5 ) {
-			variableComponent = this.basicPay * 0.05;
-		}
-		else if( this.experience >= 5 && this.experience < 10 ) {
-			variableComponent = this.basicPay * 0.07;
-		}
-		else if( this.experience >= 10 ) {
-			variableComponent = this.basicPay * 0.12;
+		} 
+		else if( this.getExperience() >= 3 && this.getExperience() < 5 ) {
+			variableComponent = 0.05 * this.getBasicPay();
+		} 
+		else if( this.getExperience() >= 5 && this.getExperience() < 10 ) {
+			variableComponent = 0.07 * this.getBasicPay();
+		} 
+		else if( this.getExperience() >= 10 ) {
+			variableComponent = 0.12 * this.getBasicPay();
+		} 
+		else {
+			System.out.println("Invalid Experience!!");
 		}
 		
-		double salary = this.basicPay + this.hra + variableComponent;
-		this.setSalary(salary);
+		double calculatedSalary = variableComponent + this.getBasicPay() + this.getHra();
+		this.setSalary(Math.round(calculatedSalary*100) / 100.0);	
 		
 	}
 	
