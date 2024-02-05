@@ -4,25 +4,25 @@ public class StudentTester {
 	
 	public static void main(String[] args) {
 		
-		GraduateStudent gs1 = new GraduateStudent( "Ajay" );
-		gs1.setTestScore(0, 70);
-		gs1.setTestScore(1, 69);
-		gs1.setTestScore(2, 71);
-		gs1.setTestScore(3, 55);
-		gs1.generateResult();
-		System.out.println("Name: " + gs1.getName());
-		System.out.println("Result: " + gs1.getResult());
+		UnderGraduateStudent underGrad = new UnderGraduateStudent( "Mehul" );
+		underGrad.setTestScore(0, 70);
+		underGrad.setTestScore(1, 69);
+		underGrad.setTestScore(2, 71);
+		underGrad.setTestScore(3, 55);
+		underGrad.generateResult();
+		System.out.println("Name: " + underGrad.getName());
+		System.out.println("Result: " + underGrad.getResult());
+		System.out.println();
 		
-		UndergraduateStudent us1 = new UndergraduateStudent( "Mehul" );
-		us1.setTestScore(0, 70);
-		us1.setTestScore(1, 69);
-		us1.setTestScore(2, 71);
-		us1.setTestScore(3, 55);
-		us1.generateResult();
-		System.out.println("Name: " + us1.getName());
-		System.out.println("Result: " + us1.getResult());
-		
-
+		GraduateStudent grad = new GraduateStudent( "Ajay" );
+		grad.setTestScore(0, 70);
+		grad.setTestScore(1, 69);
+		grad.setTestScore(2, 71);
+		grad.setTestScore(3, 55);
+		grad.generateResult();
+		System.out.println("Name: " + grad.getName());
+		System.out.println("Result: " + grad.getResult());
+		System.out.println();
 		
 	}
 

@@ -1,9 +1,9 @@
 package abstractKeyword;
 
-public class UndergraduateStudent extends Student{
+public class UnderGraduateStudent extends Student{
 	
 //	Constructor
-	public UndergraduateStudent( String name ) {
+	public UnderGraduateStudent( String name ) {
 		super( name );
 	}
 	
