@@ -14,8 +14,14 @@ public class Intern implements Student {
 	
 //	Methods
 	public void calcPercentage() {
-		double percentage = (double)(this.marksSecured + this.projectMarks) / this.TOTAL_MAXIMUM_MARKS;
-		System.out.println(percentage*100.0);
+		int sum = this.marksSecured + this.projectMarks;
+		if( sum < 0 || sum > 400 ) {
+			System.out.println("Please enter the correct marks");
+		} else {
+			double percentage = ( (double)sum / Student.TOTAL_MAXIMUM_MARKS ) * 100.0;
+			System.out.println("The total aggregate percentage secured by the Intern is " + Math.round(percentage*100) / 100.0);
+			System.out.println();
+		}
 	}
 
 }
