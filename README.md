@@ -152,4 +152,8 @@
 3.) Functional Interface\
 4.) Solve 1 Problem on Abstract and 1 Problem on Interface
 
+### Day-30: Java Object Oriented Programming Concepts
+1.) Solve 3 Assignment Problems based on all the topics learned till now\
+2.) Implemented proper structure of an Enterprise Application and Validator Class in Maven Project - [ Project 1 : Infy Academy](https://github.com/tariqnaseem333/Infy-Academy.git)
+
 
