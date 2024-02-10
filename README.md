@@ -17,17 +17,17 @@
 1.) Solve 8 Problems on Selection Control Structures\
 2.) Solve 8 Problems on Iteration Control Structures
 
-### Day-4: Object Oriented Programming Basics
+### Day-4: Java Object Oriented Programming Concepts
 1.) Introduction to Object Oriented Programming\
 2.) Methods\
 3.) Constructors
 
-### Day-5: Object Oriented Programming Basics
+### Day-5: Java Object Oriented Programming Concepts
 1.) this Keyword\
 2.) Memory Management\
 3.) Encapsulation
 
-### Day-6: Object Oriented Programming Basics
+### Day-6: Java Object Oriented Programming Concepts
 1.) Abstraction\
 2.) Access Modifiers\
 3.) Class Diagram
@@ -45,52 +45,52 @@
 1.) Solve 1 Problem on Static Keyword\
 2.) Solve 7 Problems on Arrays
 
-### Day-10: Object Oriented Programming Concepts
+### Day-10: Java Object Oriented Programming Concepts
 1.) Static\
 2.) Aggregation\
 3.) Association
 
-### Day-11: Object Oriented Programming Concepts
+### Day-11: Java Object Oriented Programming Concepts
 1.) Solve 3 Problem on Static\
 2.) Solve 3 Problems on Aggregation\
 3.) Solve 1 Problem on Association
 
-### Day-12: Object Oriented Programming Concepts
+### Day-12: Java Object Oriented Programming Concepts
 1.) Inheritance\
 2.) Static Polymorphism or Method Overloading\
 3.) Dynamic Polymorphism or Method Overriding
 
-### Day-13: Object Oriented Programming Concepts
+### Day-13: Java Object Oriented Programming Concepts
 1.) Solve 2 Problems on Inheritance\
 2.) Solve 3 Problems on Static Polymorphism or Method Overloading\
 3.) Solve 1 Problem on Dynamic Polymorphism or Method Overriding
 
-### Day-14: Object Oriented Programming Concepts
+### Day-14: Java Object Oriented Programming Concepts
 1.) Object and Wrapper Classes\
 2.) Final Keyword\
 3.) Abstract
 
-### Day-15: Object Oriented Programming Concepts
+### Day-15: Java Object Oriented Programming Concepts
 1.) Solve 1 Problem on Final Keyword\
 2.) Solve 1 Problem on Abstract Class\
 3.) Solve 2 Problems on Dynamic Polymorphism or Method Overriding
 
-### Day-16: Object Oriented Programming Concepts
+### Day-16: Java Object Oriented Programming Concepts
 1.) Interface\
 2.) Exception\
 3.) Package
 
-### Day-17: Java Concepts
+### Day-17: Java Concepts and Java API
 1.) Unit Testing and Code Coverage\
 2.) Recursion\
 3.) Regular Expression
 
-### Day-18: Java Concepts
+### Day-18: Java Concepts and Java API
 1.) Solve 4 Problems on Recursion\
 2.) Solve 2 Problems on Regular Expression\
 3.) Solve 1 Problem on Exception
 
-### Day-19: Java Concepts
+### Day-19: Java Concepts and Java API
 1.) Solve 2 Problems on Recursion\
 2.) Solve 3 Problems on Regular Expression
 
@@ -100,26 +100,26 @@
 
 ## Java 11 Standard Edition (SE) Basics:-
 
-### Day-21: Java Basics
+### Day-21: Java Programming Basics
 1.) Introduction\
 2.) Enterprise Application\
 3.) Java Basics - Introduction to Java\
 4.) Java Basics - Keywords and DataTypes\
 5.) Solve 1 Problem on Java Basics - Keywords and DataTypes
 
-### Day-22: Java Basics
+### Day-22: Java Programming Basics
 1.) Java Basics - OOP Constructs\
 2.) Java Basics - Control Structures\
 3.) Package & Access Modifiers\
 4.) Solve 1 Problem on Java Basics - OOP Constructs, 1 Problem on Java Basics - Control Structures and 1 Problem on Package & Access Modifiers
 
-### Day-23: Java Basics
+### Day-23: Java Programming Basics
 1.) Strings Class\
 2.) Wrapper Classes\
 3.) Arrays\
 4.) Solve 1 Problem on Strings Class, 2 Problems on Wrapper Classes and 1 Problem on Arrrays
 
-### Day-24: Java Basics and Assignment Problems and Java Enterprise Application Project
+### Day-24: Java Programming Basics and Java Enterprise Application Project
 1.) Enumeration in Java\
 2.) Solve 2 Problems on Enumeration\
 3.) Code Analysis - SonarLint\
@@ -152,7 +152,7 @@
 3.) Functional Interface\
 4.) Solve 1 Problem on Abstract and 1 Problem on Interface
 
-### Day-30: Java Enterprise Application Project and Assignment Problems
+### Day-30: Java Object Oriented Programming Concepts and Java Enterprise Application Project
 1.) Solve 3 Assignment Problems based on all the topics learned till now\
 2.) Implemented proper structure of an Enterprise Application and Validator Class in Maven Project - [ Project 1 : Infy Academy](https://github.com/tariqnaseem333/Infy-Academy.git)
 
