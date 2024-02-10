@@ -119,7 +119,7 @@
 3.) Arrays\
 4.) Solve 1 Problem on Strings Class, 2 Problems on Wrapper Classes and 1 Problem on Arrrays
 
-### Day-24: Java Basics
+### Day-24: Java Basics and Assignment Problems and Java Enterprise Application Project
 1.) Enumeration in Java\
 2.) Solve 2 Problems on Enumeration\
 3.) Code Analysis - SonarLint\
@@ -152,7 +152,7 @@
 3.) Functional Interface\
 4.) Solve 1 Problem on Abstract and 1 Problem on Interface
 
-### Day-30: Java Object Oriented Programming Concepts
+### Day-30: Java Enterprise Application Project and Assignment Problems
 1.) Solve 3 Assignment Problems based on all the topics learned till now\
 2.) Implemented proper structure of an Enterprise Application and Validator Class in Maven Project - [ Project 1 : Infy Academy](https://github.com/tariqnaseem333/Infy-Academy.git)
 
