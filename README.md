@@ -156,4 +156,10 @@
 1.) Solve 3 Assignment Problems based on all the topics learned till now\
 2.) Implemented proper structure of an Enterprise Application and Validator Class in Maven Project - [ Project 1 : Infy Academy](https://github.com/tariqnaseem333/Infy-Academy.git)
 
+### Day-31: Java Collection Framework
+1.) Exception Handling\
+2.) List and Generics\
+3.) Set Data Structure From Collection Framework\
+4.) Solve 1 Problem on Exception Handling, 1 Problem on List and Generics and 1 Problem on Set Data Structure From Collection Framework
+
 
