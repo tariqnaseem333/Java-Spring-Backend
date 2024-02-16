@@ -162,4 +162,8 @@
 3.) Set Data Structure From Collection Framework\
 4.) Solve 1 Problem on Exception Handling, 1 Problem on List and Generics and 1 Problem on Set Data Structure From Collection Framework
 
+### Day-32: Java Collection Framework
+1.) Map Data Structure From Collection Framework\
+2.) Added suitable Data Structure from Collection Framework and Custom Exception for error handling in Maven Project - [ Project 1 : Infy Academy](https://github.com/tariqnaseem333/Infy-Academy.git)
+
 
