@@ -166,4 +166,6 @@
 1.) Map Data Structure From Collection Framework\
 2.) Added suitable Data Structure from Collection Framework and Custom Exception for error handling in Maven Project - [ Project 1 : Infy Academy](https://github.com/tariqnaseem333/Infy-Academy.git)
 
+### Day-33: Java Project
+1.) Build Mobile Service Maven Project based on Java - [ Project 2 : Mobile Service](https://github.com/tariqnaseem333/Mobile-Service.git)
 
