@@ -124,7 +124,7 @@
 2.) Solve 2 Problems on Enumeration\
 3.) Code Analysis - SonarLint\
 4.) Solve 2 Assignment Problems based on all the topics learned till now\
-5.) Build 1 Maven Project based on Java - [ Project 1 : Infy Academy](https://github.com/tariqnaseem333/Infy-Academy.git)
+5.) Java Project 1 -- Build 1 Maven Project based on Java - [ Project 1 : Infy Academy](https://github.com/tariqnaseem333/Infy-Academy.git)
 
 ### Day-25: Java API
 1.) Java Regex API\
@@ -154,7 +154,7 @@
 
 ### Day-30: Java Object Oriented Programming Concepts and Java Enterprise Application Project
 1.) Solve 3 Assignment Problems based on all the topics learned till now\
-2.) Implemented proper structure of an Enterprise Application and Validator Class in Maven Project - [ Project 1 : Infy Academy](https://github.com/tariqnaseem333/Infy-Academy.git)
+2.) Java Project 1 -- Implemented proper structure of an Enterprise Application and Validator Class in Maven Project - [ Project 1 : Infy Academy](https://github.com/tariqnaseem333/Infy-Academy.git)
 
 ### Day-31: Java Collection Framework
 1.) Exception Handling\
@@ -164,8 +164,11 @@
 
 ### Day-32: Java Collection Framework
 1.) Map Data Structure From Collection Framework\
-2.) Added suitable Data Structure from Collection Framework and Custom Exception for error handling in Maven Project - [ Project 1 : Infy Academy](https://github.com/tariqnaseem333/Infy-Academy.git)
+2.) Java Project 1 -- Added suitable Data Structure from Collection Framework and Custom Exception for error handling in Maven Project - [ Project 1 : Infy Academy](https://github.com/tariqnaseem333/Infy-Academy.git)
 
-### Day-33: Java Project
+### Day-33: Java Project 2
 1.) Build Mobile Service Maven Project based on Java - [ Project 2 : Mobile Service](https://github.com/tariqnaseem333/Mobile-Service.git)
+
+### Day-34: Java Project 3
+1.) Build Issue Tracker Maven Project based on Java - [ Project 3 : Issue Tracker](https://github.com/tariqnaseem333/Issue-Tracker).
 
