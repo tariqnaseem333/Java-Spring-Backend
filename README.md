@@ -172,3 +172,11 @@
 ### Day-34: Java Project 3
 1.) Build Issue Tracker Maven Project based on Java - [ Project 3 : Issue Tracker](https://github.com/tariqnaseem333/Issue-Tracker).
 
+## Java 11 Standard Edition (SE) Advance Concepts:-
+
+### Day-35: Java Advance Concepts
+1.) Lambda Expressions\
+2.) Stream API\
+3.) Solve 1 Problem on Lambda Expressions and 1 Problem on Stream API\
+3.) Java Project 1 -- Implemented stream API and a separate Properties file for error and success messages  in Maven Project - [ Project 1 : Infy Academy](https://github.com/tariqnaseem333/Infy-Academy.git)
+
