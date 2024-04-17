@@ -1,0 +1,19 @@
+17-Apr-2024 20:13:55 ERROR - Your wallet is empty or has invalid amount.
+com.infy.exception.InfyAcademyException: Validator.INVALID_WALLET_BALANCE
+	at com.infy.validator.PizzaValidator.validate(PizzaValidator.java:28) [bin/:?]
+	at com.infy.model.service.PizzaService.purchasePizza(PizzaService.java:26) [bin/:?]
+	at com.infy.userinterface.PizzaShoppie.main(PizzaShoppie.java:34) [bin/:?]
+17-Apr-2024 20:13:55 ERROR - Your wallet is empty or has invalid amount.
+17-Apr-2024 20:14:38 ERROR - The pizzas have not yet been ordered. Please add any pizza to order.
+com.infy.exception.InfyAcademyException: Validator.INVALID_PIZZAS_ORDERED
+	at com.infy.validator.PizzaValidator.validate(PizzaValidator.java:28) [bin/:?]
+	at com.infy.model.service.PizzaService.purchasePizza(PizzaService.java:26) [bin/:?]
+	at com.infy.userinterface.PizzaShoppie.main(PizzaShoppie.java:34) [bin/:?]
+17-Apr-2024 20:14:38 ERROR - The pizzas have not yet been ordered. Please add any pizza to order.
+17-Apr-2024 20:15:25 ERROR - You, unfortunately, do not have enough money. Please come back when you have it.
+com.infy.exception.InfyAcademyException: Service.INSUFFICIENT_WALLET_BALANCE
+	at com.infy.model.service.PizzaService.purchasePizza(PizzaService.java:29) [bin/:?]
+	at com.infy.userinterface.PizzaShoppie.main(PizzaShoppie.java:34) [bin/:?]
+17-Apr-2024 20:15:25 ERROR - You, unfortunately, do not have enough money. Please come back when you have it.
+17-Apr-2024 20:15:39 INFO - Jacob 740.0
+17-Apr-2024 20:15:39 INFO - Your order is placed and the total cost is 740.0

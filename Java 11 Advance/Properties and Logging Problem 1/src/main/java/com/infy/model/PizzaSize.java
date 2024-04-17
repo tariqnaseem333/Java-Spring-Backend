@@ -1,4 +1,4 @@
-package model;
+package com.infy.model;
 
 public enum PizzaSize {
 	
