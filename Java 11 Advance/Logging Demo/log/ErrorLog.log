@@ -8,3 +8,4 @@ java.lang.Exception: Service.INVALID_CREDENTIALS
 	at com.infy.UserAuthentication.loginUser(UserAuthentication.java:14) [bin/:?]
 	at com.infy.userinterface.Tester.main(Tester.java:16) [bin/:?]
 05-Apr-2024 21:01:42 INFO - Jon logged in successfully
+05-Apr-2024 21:23:18 INFO - Jon logged in successfully
