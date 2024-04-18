@@ -1,0 +1,11 @@
+18-Apr-2024 20:10:35 INFO - You can successfully borrow the book:
+18-Apr-2024 20:10:35 ERROR - Sorry! The book is currently unavailable!
+com.infy.exception.InfyAcademyException: BOOK_UNAVAILABLE
+	at service.BookIssue.bookDetails(BookIssue.java:31) [bin/:?]
+	at userinterface.Tester.main(Tester.java:15) [bin/:?]
+18-Apr-2024 20:12:02 INFO - You can successfully borrow the book:
+18-Apr-2024 20:12:02 INFO - You can successfully borrow the book:
+18-Apr-2024 20:12:02 ERROR - This book is invalid!
+com.infy.exception.InfyAcademyException: INVALID_BOOKNAME
+	at service.BookIssue.bookDetails(BookIssue.java:34) [bin/:?]
+	at userinterface.Tester.main(Tester.java:17) [bin/:?]
