@@ -180,3 +180,9 @@
 3.) Solve 1 Problem on Lambda Expressions and 1 Problem on Stream API\
 3.) Java Project 1 -- Implemented stream API and a separate Properties file for error and success messages  in Maven Project - [ Project 1 : Infy Academy](https://github.com/tariqnaseem333/Infy-Academy.git)
 
+### Day-36: Java Advance Concepts
+1.) Properties File concept using Apache Commons\
+2.) Logging File concept using Apache Log4j2 \
+3.) Practice 1 Demo on Apache Commons Properties and 1 Demo on Apache Log4j2\
+3.) Solve 2 Problems on Apache Commons Properties and Apache Log4j2
+
