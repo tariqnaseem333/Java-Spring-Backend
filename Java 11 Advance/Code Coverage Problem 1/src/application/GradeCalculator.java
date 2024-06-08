@@ -7,16 +7,20 @@ import com.infy.exception.InfyAcademyException;
 public class GradeCalculator {
 
 	public Character calculateGrade(List<Integer> marksList) throws InfyAcademyException {
-		if(marksList.isEmpty()) {			
+
+		if(marksList.isEmpty())		
 			throw new InfyAcademyException("MarksList is Empty, can't calculate grade.");
-		}
+
 		Integer sum=0;
 		Integer average=0;
 		Character grade;
+
 		for(Integer marks:marksList) {
 			sum+=marks;
 		}
+		
 		average=sum/marksList.size();
+		
 		if(average>=90) {
 			grade='A';
 		}
@@ -35,6 +39,8 @@ public class GradeCalculator {
 		else {
 			grade='F';
 		}
+		
 		return grade;
+		
 	}
 }
