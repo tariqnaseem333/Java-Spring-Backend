@@ -186,3 +186,10 @@
 3.) Practice 1 Demo on Apache Commons Properties and 1 Demo on Apache Log4j2\
 3.) Solve 2 Problems on Apache Commons Properties and Apache Log4j2
 
+### Day-37: Java Advance Concepts
+1.) Unit Testing Using JUnit5\
+2.) Code Analysis Using PMD \
+3.) Code Coverage Using EclEmma\
+4.) Practice 1 Demo on Unit testing Using JUnit5\
+5.) Solve 1 Problem on JUnit5, Code Analysis and Code Coverage
+
