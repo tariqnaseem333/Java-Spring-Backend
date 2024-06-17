@@ -1,0 +1,8 @@
+17-Jun-2024 08:50:19 ERROR - Validator.INVALID_EMPLOYEE_NAME
+java.lang.Exception: Validator.INVALID_EMPLOYEE_NAME
+	at com.infy.validator.Validator.validate(Validator.java:13) [classes/:?]
+	at com.infy.userinterface.Tester.main(Tester.java:14) [classes/:?]
+17-Jun-2024 08:50:48 ERROR - Validator.INVALID_EMPLOYEE_ID
+java.lang.Exception: Validator.INVALID_EMPLOYEE_ID
+	at com.infy.validator.Validator.validate(Validator.java:15) [classes/:?]
+	at com.infy.userinterface.Tester.main(Tester.java:14) [classes/:?]
