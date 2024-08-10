@@ -193,3 +193,11 @@
 4.) Practice 1 Demo on Unit testing Using JUnit5\
 5.) Solve 1 Problem on JUnit5, Code Analysis and Code Coverage
 
+### Day-38: Java Advance Concepts
+1.) Modular Programming Using Java 9 Modules\
+2.) Software Project Management Tool - Maven\
+3.) Annotation Based Java Library - Lombok\
+4.) Java Application Database Connectivity Using JDBC\
+5.) Practice 1 Demo on Maven, Lombok and JDBC\
+6.) Solve 2 Problems on Modular Programming and 1 Problem on JDBC
+
