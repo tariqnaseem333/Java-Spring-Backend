@@ -201,3 +201,10 @@
 5.) Practice 1 Demo on Maven, Lombok and JDBC\
 6.) Solve 2 Problems on Modular Programming and 1 Problem on JDBC
 
+### Day-39: Java Advance Concepts and Java Projects
+1.) Software Project Management Tool - Gradle\
+2.) Practice 1 Demo on Gradle\
+3.) Java Project 1 -- Removed a few bugs from Maven Project - [ Project 1 : Infy Academy](https://github.com/tariqnaseem333/Infy-Academy.git)\
+4.) Java Project 2 -- Updated Maven Project - [ Project 2 : Mobile Service](https://github.com/tariqnaseem333/Mobile-Service.git)\
+5.) Java Project 3 -- Updated Maven Project - [ Project 3 : Issue Tracker](https://github.com/tariqnaseem333/Issue-Tracker).
+
