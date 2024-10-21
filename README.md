@@ -208,3 +208,6 @@
 4.) Java Project 2 -- Updated Maven Project - [ Project 2 : Mobile Service](https://github.com/tariqnaseem333/Mobile-Service.git)\
 5.) Java Project 3 -- Updated Maven Project - [ Project 3 : Issue Tracker](https://github.com/tariqnaseem333/Issue-Tracker).
 
+### Day-40: Java Project 4
+1.) Build Infy Training Maven Project based on Java - [ Project 4 : Infy Training](https://github.com/tariqnaseem333/Infy-Training).
+
