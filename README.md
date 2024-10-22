@@ -211,3 +211,6 @@
 ### Day-40: Java Project 4
 1.) Build Infy Training Maven Project based on Java - [ Project 4 : Infy Training](https://github.com/tariqnaseem333/Infy-Training).
 
+### Day-41: Java Project 5
+1.) Build Healthcare Scheduler Maven Project based on Java - [ Project 5 : Healthcare Scheduler](https://github.com/tariqnaseem333/Healthcare-Scheduler).
+
