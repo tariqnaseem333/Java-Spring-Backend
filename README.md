@@ -214,3 +214,8 @@
 ### Day-41: Java Project 5
 1.) Build Healthcare Scheduler Maven Project based on Java - [ Project 5 : Healthcare Scheduler](https://github.com/tariqnaseem333/Healthcare-Scheduler).
 
+### Day-42: Java Advance Concepts and Docker
+1.) Modular JDK\
+2.) Docker and Docker Commands\
+3.) Practice 3 Demo on Docker File for Ubuntu Docker Image, Java Application Docker Image and Spring Boot Application Docker Image
+
