@@ -219,3 +219,11 @@
 2.) Docker and Docker Commands\
 3.) Practice 3 Demo on Docker File for Ubuntu Docker Image, Java Application Docker Image and Spring Boot Application Docker Image
 
+### Day-43: Java Advance Concepts
+1.) Securing java Applications\
+2.) Threads\
+3.) Thread Life-cycle\
+4.) Thread Synchronization\
+5.) Practice 2 Demo on Threads and 1 Demo on Thread Synchronization\
+6.) Java Project 3 -- Implemented Thread Concept in Maven Project - [ Project 3 : Issue Tracker](https://github.com/tariqnaseem333/Issue-Tracker).
+
