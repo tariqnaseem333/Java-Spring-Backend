@@ -227,3 +227,9 @@
 5.) Practice 2 Demo on Threads and 1 Demo on Thread Synchronization\
 6.) Java Project 3 -- Implemented Thread Concept in Maven Project - [ Project 3 : Issue Tracker](https://github.com/tariqnaseem333/Issue-Tracker).
 
+### Day-44: Java Advance Concepts
+1.) Executor Framework\
+2.) Callable & Future\
+3.) Locks\
+4.) Practice 1 Demo on Executor Framework, 1 Demo on Callable & Future and 1 Demo on Locks
+
