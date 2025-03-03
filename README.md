@@ -233,3 +233,8 @@
 3.) Locks\
 4.) Practice 1 Demo on Executor Framework, 1 Demo on Callable & Future and 1 Demo on Locks
 
+### Day-45: Core Java Design Patterns
+1.) Basics of Design Pattern\
+2.) Singleton Design Pattern\
+3.) Ways to Break Single Design Pattern and their solution
+
