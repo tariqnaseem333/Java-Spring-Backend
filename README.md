@@ -238,3 +238,8 @@
 2.) Singleton Design Pattern\
 3.) Ways to Break Single Design Pattern and their solution
 
+### Day-46: Core Java Design Patterns
+1.) Factory Design Pattern\
+2.) Abstract Factory Design Pattern\
+3.) Builder Design Pattern
+
