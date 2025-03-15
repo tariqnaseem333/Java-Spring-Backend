@@ -243,3 +243,8 @@
 2.) Abstract Factory Design Pattern\
 3.) Builder Design Pattern
 
+### Day-47: Core Java Design Patterns
+1.) Prototype Design Pattern\
+2.) Prototype Deep Copy Design Pattern\
+3.) Observer Design Pattern
+
