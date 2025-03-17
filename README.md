@@ -248,3 +248,7 @@
 2.) Prototype Deep Copy Design Pattern\
 3.) Observer Design Pattern
 
+### Day-48: Core Java Design Patterns
+1.) Iterator Design Pattern\
+2.) Adaptor Design Pattern
+
